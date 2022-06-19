@@ -3,12 +3,13 @@
 }
 
 .container{
-  background-color: lightgrey;
+  background-color: cyan;
   max-width: 1000px;
   min-height: 100vh;
   margin: 30px auto;
   padding: 20px;
   border-radius: 20px;
+  text-align: center;
 }
 
 h1{
@@ -24,7 +25,7 @@ h1{
 
 .list{
   width: 200px;
-  background-color: lightblue;
+  background-color: green;
   margin: 10px;
   border-radius: 5px;
   padding-bottom: 10px;
@@ -49,4 +50,28 @@ a{
   padding: 10px;
   border-radius: 10px;
   text-decoration: none;
+}
+
+.form-control{
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.btn{
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  color: rgb(45, 174, 179);
+  background: blue;
+}
+
+.title{
+  font-size: 40px;
+  color: rgb(53, 164, 38);
+  margin-bottom: 60px;
 }
